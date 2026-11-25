@@ -1,0 +1,27 @@
+# Python
+*.log
+*.pot
+*.pyc
+*.pyo
+*.py[cod]
+*$py.class
+
+__pycache__/
+/**/__pycache__/
+
+# Django
+db.sqlite3
+media/
+static/
+staticfiles/
+
+
+# IDE
+.vscode/
+.idea/
+
+# Exclude all migrations except __init__.py
+**/migrations/*
+!**/migrations/__init__.py
+.venv
+venv/
